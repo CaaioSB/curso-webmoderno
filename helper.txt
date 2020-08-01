@@ -1,0 +1,35 @@
+Anotações de algumas funções
+
+Explicação:
+Tudo aquilo que está entre "[" e "]" não são valores fíxos, ou seja, dependendo do caso, pode alternar entre o nome de uma classe, uma variável, constante etc... 
+
+=================================================================================================
+typeof [conteudo] // Obtém o tipo de dado.
+typeof 500 // number
+typeof "500" // string
+=================================================================================================
+
+=================================================================================================
+[Tipo].is[Tipo]([conteudo]) // Retorna um boleano dizendo se x variável equivale ao tipo mencionado
+Number.isInteger(10) // true
+=================================================================================================
+
+=================================================================================================
+[conteudo].toFixed([number]) // Define a quantidade de casas decimais depois da vírgula, ou seja, ao substituir "[number]" por um número inteiro, será a quantidade de casas decimais pós vírgula.
+10.500.toFixed(2) // 10.50
+=================================================================================================
+
+=================================================================================================
+([conteudo]).toString() // Converte qualquer outro tipo de dado (Number, Boolean...) para uma string.
+
+Em alguns cenários, é necessário por o valor entre "(" e ")" para funcionar, como por exemplo dados do tipo Number, segue abaixo
+
+(500).toString() // "500"
+true.toString() // "true"
+
+(500).toString(2) // "111110100"
+
+Parâmetros toString()
+2 == binário
+=================================================================================================
+
