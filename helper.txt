@@ -33,3 +33,62 @@ Parâmetros toString()
 2 == binário
 =================================================================================================
 
+=================================================================================================
+[string].charAt([posicao]) // Obtém o conteúdo que está em determinada posição de uma string, e se não exister, não retorna nada, ou seja, ''.
+
+"JavaScript".charAt(0) // 'J'
+"JavaScript".charAt(500) // ''
+"JavaScript".charAt(-1) // ''
+=================================================================================================
+
+=================================================================================================
+[string].charCodeAt([posicao]) // Obtém o valor em unicode que está em determinada posição de uma string, e se não exister, retorna que não é um número, ou seja, NaN.
+
+"JavaScript".charCodeAt(0) // 74
+"JavaScript".charCodeAt(500) // NaN
+"JavaScript".charCodeAt(-1) // NaN
+=================================================================================================
+
+=================================================================================================
+[string].indexOf([posicao]) // Extrai o valor que está em determinada posição da string
+
+"JavaScript".indexOf(0) // 'J'
+=================================================================================================
+
+=================================================================================================
+[string].substring([inicio], [fim]) // Extrai o valor que está no range determinado entre [inicio e [fim] da string, sendo que o parâmetro [fim] é opcional
+
+"JavaScript".substring(0) // 'JavaScript'
+"JavaScript".substring(1) // 'avaScript'
+"JavaScript".substring(0, 1) // 'J'
+=================================================================================================
+
+=================================================================================================
+[string].concat([valor]) // Concatena (junta) o valor da esquerda ([string]) com o valor da direita, ou seja, o parâmetro da função concat ([valor])
+
+"Aprendendo ".concat('Javascript') // 'Aprendendo JavaScript'
+'O'.concat("i") // Oi
+=================================================================================================
+
+=================================================================================================
+[string].replace([valorAtual], [valorDesejado]) // Substitui o valor atual pelo valor desejado, ou seja:
+
+'Kaio'.replace('K', 'C') // Caio
+=================================================================================================
+
+=================================================================================================
+[string].split([valor]) // Quebra a string através de um valor ([valor]) e retorna um array
+
+'Banana,Maçã,Pêra'.split(',') // ['Banana', 'Maçã', 'Pêra']
+=================================================================================================
+
+
+
+
+
+
+
+
+
+
+
